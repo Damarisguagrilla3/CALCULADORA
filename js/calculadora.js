@@ -27,5 +27,9 @@ function Press()
     "\n"+sal+" kilogramos de Sal");
     }
     else
-    alert("Valor maximo excedido, porfavor vuelva a ingresar los datos")
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Ninguna dato ha sido ingresado !',
+      })
 }
