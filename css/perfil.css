@@ -3,6 +3,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+/*Barra de navegacion*/
 .header{
     background-color: #094275;
     height: 90px;
@@ -53,6 +54,7 @@
     background-color: rgb(77, 91, 95);
     transition: 0.5s;
 }
+/*Menu - Desplegable*/
 .submenu{
     position: absolute;
     background: #333;
@@ -92,6 +94,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+/* Calculadora */
 #titulo{
     text-align: center;
     color:white;
